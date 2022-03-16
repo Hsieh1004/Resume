@@ -20,18 +20,6 @@ Here are some works of mine :books:
 
 </ProjectCard>
 
-## Publications
-
-<ProjectCard>
-
-  **Hsieh and the Deathly Hallows**
-  
-  
-
-  [[Link](https://www.google.com)]
-
-</ProjectCard>
-
 <style lang="stylus">
 
 .projects-page

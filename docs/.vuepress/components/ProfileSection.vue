@@ -11,7 +11,6 @@
         <p>{{ data.bio }}</p>
       </div>
       <div class="socials">
-        <div v-for="item in data.socials">
             <a :href="item.link" target="_blank">
               <img :src="item.icon" :alt="item.title"
               :title="item.title" />
@@ -26,7 +25,6 @@
           <font size="2em" color=""><b>[CV]</b></font>
         </a>
       </div>
-    </div>
   </div>
 </template>
 

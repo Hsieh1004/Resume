@@ -8,8 +8,6 @@ interests: 'Interests: Quidditch and Wizard chess.'
 socials:
 - title: github
   link: https://github.com/mtobeiyf
-- title: linkedin
-  link: https://www.linkedin.com
 - title: instagram
   link: https://www.instagram.com
 - title: email
@@ -19,9 +17,6 @@ actions:
   link: /projects/
 - text: Blog
   link: https://github.com/mtobeiyf
-- text: CV
-  link: /article/
-footer: Made with ♥ by Fing. Powered by VuePress
 ---
 
 <AboutCard :frontmatter="$page.frontmatter" >
