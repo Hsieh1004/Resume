@@ -2,7 +2,7 @@
 pageClass: home-page
 # some data for the components
 
-name: Harry Potter
+name: Hsieh
 profile: /profile.jpg
 
 socials:
@@ -49,7 +49,7 @@ Sept 1991 - 1997
 
 <ProjectCard image="/projects/1.png" hideBorder=true>
 
-  **The Making of Harry Potter's Wand**
+  **The Making of Hsieh's Wand**
 
   Harry P., Hermione G., *et al*
   
@@ -61,7 +61,7 @@ Sept 1991 - 1997
 
 <ProjectCard hideBorder=true>
 
-  **Harry Potter and the Deathly Hallows**
+  **Hsieh and the Deathly Hallows**
   
   In the epilogue of Deathly Hallows, which is set 19 years after Voldemort's death, Harry and Ginny are a couple and have three children: James Sirius Potter, who has already been at Hogwarts for at least one year, Albus Severus Potter, who is starting his first year there, and Lily Luna Potter, who is two years away from her first year at the school.
 
