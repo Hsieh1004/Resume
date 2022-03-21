@@ -19,12 +19,8 @@
           <slot></slot>
         </div>
       </div>
-      <div class="interests">
-        <span>
-          {{data.interests}}
-        </span>
-      </div>
       <div class="socials">
+        <div v-for="item in data.socials">
           <a :href="item.link" target="_blank">
             <img :src="'/icons/'+item.title+'.svg'" :alt="item.title"
             :title="item.title" />
@@ -32,14 +28,16 @@
         </div>
       </div>
       <div class="actions">
+        <div v-for="item in data.actions">
           <a :href="item.link" class="button"
               :target="item.link.startsWith('/')?'':'_blank'">
             {{item.text}}
           </a>
         </div>
-    <!-- <div class="footer" v-if="data.footer">
-      {{ data.footer }}
-    </div> -->
+      </div>
+    </div>
+
+
   </div>
 </template>
 

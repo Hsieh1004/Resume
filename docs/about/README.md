@@ -1,29 +1,28 @@
 ---
 pageClass: about-page
 description: 'The biography and information about me.'
-avatar: /profile.jpg
-head: 'Hsieh'
-info: 'Student at Hogwarts School'
-interests: 'Interests: Quidditch and Wizard chess.'
+avatar: /projects/profile.jpg
+head: '謝孟秦'
+info: '國立雲林科技大學'
 socials:
 - title: github
-  link: https://github.com/mtobeiyf
+  link: https://github.com/Hsieh1004
 - title: instagram
   link: https://www.instagram.com
 - title: email
-  link: 'mailto:harry[at]gmail.com'
+  link: 'mailto:chian0221[at]gmail.com'
 actions:
 - text: Projects
   link: /projects/
-- text: Blog
-  link: https://github.com/mtobeiyf
 ---
 
 <AboutCard :frontmatter="$page.frontmatter" >
 
-I attended [Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org/wiki/Hogwarts) to study witchcraft, supervised by **Dumbledore** and other professors. I'm trying my best to battle with Lord Voldemort, the evil Wizard that we all fear. My research area includes Defence Against the Dark Arts and other magic. :dizzy:
+我是謝孟秦，就讀雲林科技大學資訊管理系，出生於平凡卻幸福的小家庭，個性外向、充滿好奇心，勇於嘗試新事物，是家中的獨生女，父母親皆從事金融相關工作，從小教導方式較自由，願意投注心力栽培我，也非常注重身心各方面發展，給予扎實的教育，很支持我的選擇，也強調做任何事態度是最重要的，希望無論之後從事什麼工作，都能秉持著熱忱以及學習的初衷。:dizzy:
 
 </AboutCard>
+
+
 
 <style lang="stylus">
 

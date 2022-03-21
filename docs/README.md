@@ -16,33 +16,34 @@ socials:
     icon: "/icons/instagram-mono.svg"
     link: https://www.instagram.com
 
-cv: https://en.wikipedia.org/wiki/Harry_Potter
-bio: Student at Hogwarts School
 email: harry (at) hogwarts (dot) edu
 ---
 
 <ProfileSection :frontmatter="$page.frontmatter" />
 
-## About Me
+## 關於我 🧏‍♀️
 
 I attended [Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org/wiki/Hogwarts) to study witchcraft, supervised by **Dumbledore** and other professors. 
 
 I'm trying my best to battle with Lord Voldemort, the evil Wizard that we all fear. My research area includes Defence Against the Dark Arts and other magic. :dizzy:
 
+## 學歷 👩‍🎓
 
-## News
-
-- [Sept 1991] Attended Hogwarts
-- [July 1980] Born in Godric's Hollow, West Country, England, Great Britain
-
-
-## Education & Experiences
-
-- **Hogwarts School of Witchcraft and Wizardry** <br/>
-Sept 1991 - 1997
+- **國立雲林科技大學 資訊管理系** <br/>
+- **國立雲林科技大學 資訊管理系**
+## 技能 🔨
+- python
+- JavaScript
+- 
 
 
-## Projects
+## 工作經歷 💼
+- MLD 台鋁
+- 王品集團陶板屋
+- H&M 
+- SSU大專體總 
+
+## 專案💻
 
 
 [→ Full list](/projects/)
@@ -67,11 +68,10 @@ Sept 1991 - 1997
 </ProjectCard>
 
 
-## Awards & Honors
+## 幹部與社團經歷:dizzy:
+ - 
+ - 學生自治會幹部 資訊長
 
-### Contests
-
-- First place in **The Hogwarts House Cup**
 
 
 <!-- Custom style for this page -->
@@ -79,7 +79,7 @@ Sept 1991 - 1997
 <style lang="stylus">
 
 .theme-container.home-page .page
-  font-size 14px
+  font-size 16px
   font-family "lucida grande", "lucida sans unicode", lucida, "Helvetica Neue", Helvetica, Arial, sans-serif;
   p
     margin 0 0 0.5rem
