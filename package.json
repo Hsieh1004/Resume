@@ -11,10 +11,11 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.0.4"
+    "vuepress": "^0.14.11"
   },
   "dependencies": {
-    "markdown-it": "^8.4.1",
+    "@centerforopenscience/markdown-it-video": "^1.0.0",
+    "markdown-it": "^12.3.2",
     "markdown-it-emoji": "^1.4.0",
     "markdown-it-katex": "^2.0.3"
   }

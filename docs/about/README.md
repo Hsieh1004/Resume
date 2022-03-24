@@ -3,7 +3,7 @@ pageClass: about-page
 description: 'The biography and information about me.'
 avatar: /projects/profile.jpg
 head: '謝孟秦'
-info: '國立雲林科技大學'
+info: '國立雲林科技大學 資訊管理系'
 socials:
 - title: github
   link: https://github.com/Hsieh1004
@@ -11,14 +11,11 @@ socials:
   link: https://www.instagram.com
 - title: email
   link: 'mailto:chian0221[at]gmail.com'
-actions:
-- text: Projects
-  link: /projects/
 ---
 
 <AboutCard :frontmatter="$page.frontmatter" >
 
-我是謝孟秦，就讀雲林科技大學資訊管理系，出生於平凡卻幸福的小家庭，個性外向、充滿好奇心，勇於嘗試新事物，是家中的獨生女，父母親皆從事金融相關工作，從小教導方式較自由，願意投注心力栽培我，也非常注重身心各方面發展，給予扎實的教育，很支持我的選擇，也強調做任何事態度是最重要的，希望無論之後從事什麼工作，都能秉持著熱忱以及學習的初衷。:dizzy:
+我是謝孟秦，來自高雄市，出生於平凡卻幸福的小家庭，個性外向、充滿好奇心，勇於嘗試新事物，是家中的獨生女，從小教導方式較自由，願意投注心力栽培我，很支持我的選擇，也強調做任何事態度是最重要的，希望無論之後從事什麼工作，都能秉持著熱忱以及學習的初衷，目前就讀雲林科技大學資訊管理系。:dizzy:
 
 </AboutCard>
 

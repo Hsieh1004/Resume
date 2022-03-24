@@ -21,56 +21,64 @@ email: harry (at) hogwarts (dot) edu
 
 <ProfileSection :frontmatter="$page.frontmatter" />
 
-## 關於我 🧏‍♀️
+## 關於我 🧏🏻‍♀️
 
-I attended [Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org/wiki/Hogwarts) to study witchcraft, supervised by **Dumbledore** and other professors. 
+1999 年生，樂於接受不同的挑戰，享受生活樂趣帶來靈感，激發想法和行動 :dizzy:
 
-I'm trying my best to battle with Lord Voldemort, the evil Wizard that we all fear. My research area includes Defence Against the Dark Arts and other magic. :dizzy:
-
-## 學歷 👩‍🎓
-
-- **國立雲林科技大學 資訊管理系** <br/>
-- **國立雲林科技大學 資訊管理系**
 ## 技能 🔨
-- python
-- JavaScript
-- 
+#### Front-end
 
+●●●○○ HTML / CSS ｜●●○○○ RWD ｜●●○○○ Javascript (ES6)
+●●○○○ React ｜ ●●○○○ JavaScript
+#### Back-end
+
+●●○○○ Flask ｜ ●●●○○ MySQL ｜ ●●●○○ python ｜●●○○○ Node.js ｜ ●●○○○ Heroku
+
+#### Graphic Design
+
+●●●○○ Figma ｜ ●●●○○ Adobe Photoshop ｜ ●●○○○ Adobe Illustrator
+
+## 幹部與社團經歷 :dizzy:
+
+- 雲林科技大學 公關
+- 雲林科技大學 班級代表
+- 學生自治會幹部 資訊長
+- 學生自治會粉絲專頁小編
+- 106 年大專院校學生會成果競賽暨觀摩活動
+- 107 年大專院校學生會成果競賽暨觀摩活動
+- 107 年全國大專院校運動會攝影組
+
+## 語言能力 💬
+
+- Chinese (Native)
+- English(Basic, TOEIC 600)
 
 ## 工作經歷 💼
-- MLD 台鋁
+
+- MLD 台鋁 2016/1~2016/7
 - 王品集團陶板屋
-- H&M 
-- SSU大專體總 
+- H&M 2019/4~2019/7
+- SSU 大專體總體育記者 2019/9~/2020/2
 
-## 專案💻
-
+## 專案 💻
 
 [→ Full list](/projects/)
 
-<ProjectCard image="/projects/1.png" hideBorder=true>
+<ProjectCard image="/projects/project.jpg" hideBorder=true>
 
-  **The Making of Hsieh's Wand**
+**智慧學習輔導系統**
 
-  Harry P., Hermione G., *et al*
-  
-  Harry's wand was broken in 1997, but was repaired by him after the 1998 Battle of Hogwarts. Usually the repair of a wand is impossible, but with the use of the Elder Wand it was achievable.
-  
+此系統可預測學生針對某些科目可能遇到的困難，透過事先蒐集的資料進行分析，為學生提供客觀的建議及反饋。
 
 </ProjectCard>
 
 <ProjectCard hideBorder=true>
 
-  **Hsieh and the Deathly Hallows**
-  
-  In the epilogue of Deathly Hallows, which is set 19 years after Voldemort's death, Harry and Ginny are a couple and have three children: James Sirius Potter, who has already been at Hogwarts for at least one year, Albus Severus Potter, who is starting his first year there, and Lily Luna Potter, who is two years away from her first year at the school.
+**Hsieh and the Deathly Hallows**
+
+根據每個學生的背景和學習進度對學生進行一對一的適性化輔導，讓學生提前規劃學習策略、彌補自身不足，緩解現今許多大學生嚴重缺乏時間規劃與管理的陋習，目的是希望此智慧學習輔導系統可挖掘學生潛在的優勢與機會，一旦學生能在自身有興趣的領域上獲得好成績，便能從中得到成就感，進而大大提升學習成效。
 
 </ProjectCard>
-
-
-## 幹部與社團經歷:dizzy:
- - 
- - 學生自治會幹部 資訊長
 
 
 
@@ -79,7 +87,7 @@ I'm trying my best to battle with Lord Voldemort, the evil Wizard that we all fe
 <style lang="stylus">
 
 .theme-container.home-page .page
-  font-size 16px
+  font-size 17px
   font-family "lucida grande", "lucida sans unicode", lucida, "Helvetica Neue", Helvetica, Arial, sans-serif;
   p
     margin 0 0 0.5rem
