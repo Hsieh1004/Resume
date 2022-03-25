@@ -2,8 +2,9 @@ module.exports = {
   title: "Hsieh",
   description: "The description of the site.",
   head: [["link", { rel: "icon", href: `/logo.png` }]],
-  base: "/",
+  base: '/resume/',
   dest: "./dist",
+
 
   themeConfig: {
     search: false,
