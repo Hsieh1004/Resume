@@ -7,12 +7,12 @@ set -e
 npm run docs:build
 
 # 進入生成的資料夾
-cd docs/.vuepress
+cd docs/.vuepress/dist
 
 git init
 git add -A
 git commit -m 'deploy'
 
 # 如果釋出到 https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/Hsieh1004/resume.git
+git push -f https://github.com/Hsieh1004/Vue-Resume.git master:gh-devlop
 cd -
