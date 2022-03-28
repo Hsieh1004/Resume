@@ -21,6 +21,7 @@ email: harry (at) hogwarts (dot) edu
 
 <ProfileSection :frontmatter="$page.frontmatter" />
 
+
 ## 關於我 🧏🏻‍♀️
 
 1999 年生，樂於接受不同的挑戰，享受生活樂趣帶來靈感，激發想法和行動 :dizzy:
@@ -60,12 +61,14 @@ HTML <img :src="$withBase('/projects/HTML5.png')" alt="">
 - Chinese (Native)
 - English(Basic, TOEIC 600)
 
+
 ## 工作經歷 💼
 
 - MLD 台鋁 2016/1~2016/7 <img :src="$withBase('/projects/MLD.jpeg')" alt="" > 
 - 王品集團陶板屋 2018/5~2018/9 <img :src="$withBase('/projects/house.webp')" alt="">
 - H&M 2019/4~2019/7 <img :src="$withBase('/projects/H&M.svg')" alt=""> 
 - SSU 大專體總體育記者 2019/9~/2020/2  <img :src="$withBase('/projects/SSU.png')" alt=""> 
+
 
 
 ## 專案 💻
@@ -109,6 +112,8 @@ HTML <img :src="$withBase('/projects/HTML5.png')" alt="">
     max-width 40px
     max-height 40px
     vertical-align:middle
+   
+
 
 
   /* Override */

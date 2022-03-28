@@ -1,37 +1,38 @@
 <template>
-  <div class="profile">
-    <div v-if="data.profile" class="image">
-      <img :src="$withBase(data.profile)" alt="">
+	<div class="profile">
+		<div v-if="data.profile" class="image">
+			<img :src="$withBase(data.profile)" alt="" />
+		</div>
+		<div class="info">
+			<div class="name">
+				{{ data.name }}
+			</div>
+			<div class="bio">
+				<p>{{ data.bio }}</p>
+			</div>
+			<div class="socials">
+				<a :href="item.link" target="_blank">
+					<img :src="item.icon" :alt="item.title" :title="item.title" />
+				</a>
+			</div>
+		</div>
+		<div class="contact">
+			<div class="email" title="Contact me">{{ data.email }}</div>
+		</div>
+		<div class="resume">
     </div>
-    <div class="info">
-      <div class="name">
-        {{ data.name }}
-      </div>
-      <div class="bio">
-        <p>{{ data.bio }}</p>
-      </div>
-      <div class="socials">
-            <a :href="item.link" target="_blank">
-              <img :src="item.icon" :alt="item.title"
-              :title="item.title" />
-            </a>
-        </div>
-      </div>
-      <div class="contact">
-        <div class="email" title="Contact me">{{ data.email }}</div>
-      </div>
-  </div>
+	</div>
 </template>
 
 <script>
 export default {
-  props: ['image', 'cv', 'frontmatter'],
+	props: ["image", "cv", "frontmatter"],
 
-  computed: {
-    data() {
-      return this.frontmatter;
-    }
-  }
+	computed: {
+		data() {
+			return this.frontmatter;
+		},
+	},
 };
 </script>
 
@@ -59,7 +60,7 @@ export default {
     .socials
       display flex
       flex-direction row
-      img 
+      img
         width 1.3rem
         margin 0 0.6rem 0 0
         cursor pointer
