@@ -43,8 +43,17 @@ export default {
       line-height normal
       -webkit-margin-before 0em
       -webkit-margin-after 0.5em
+      max-width: 650px;
     blockquote 
       font-size 1rem
+    img
+      padding 0.5rem
+      width: 300px
+      margin: 15px
+      float: right
+      clear: both
+      object-fit: cover
+
 
 .md-card.show-border
   border 1px solid #eee
