@@ -28,21 +28,22 @@ email: harry (at) hogwarts (dot) edu
 ## 技能 🔨
 ### Front-end
 
-●●●○○ HTML <img :src="$withBase('/projects/HTML5.png')" alt="">
-｜●●○○○ Javascript (ES6)  <img :src="$withBase('/projects/javascript.svg')" alt="">
-｜●●○○○ React <img :src="$withBase('/projects/React.png')" alt="">
-｜●●●○○ CSS <img :src="$withBase('/projects/CSS3.png')" alt="">
+HTML <img :src="$withBase('/projects/HTML5.png')" alt="">
+｜ Javascript (ES6)  <img :src="$withBase('/projects/javascript.svg')" alt="">
+｜ React <img :src="$withBase('/projects/React.png')" alt="">
+｜CSS <img :src="$withBase('/projects/CSS3.png')" alt="">
 ### Back-end
 
-●●○○○ Flask <img :src="$withBase('/projects/Flask.png')" alt="">
-｜●●●○○ MySQL  <img :src="$withBase('/projects/MySQL.png')" alt="">
- ｜ ●●●○○ python <img :src="$withBase('/projects/Python.webp')" alt="">
- ｜●●○○○ Node.js <img :src="$withBase('/projects/Node.png')" alt=""> 
- ｜ ●●○○○ Heroku <img :src="$withBase('/projects/heroku.png')" alt=""> 
+ MySQL  <img :src="$withBase('/projects/MySQL.png')" alt="">
+ ｜  python <img :src="$withBase('/projects/Python.webp')" alt="">
+ ｜ Node.js <img :src="$withBase('/projects/Node.png')" alt=""> 
+ ｜  Heroku <img :src="$withBase('/projects/heroku.png')" alt=""> 
 
 ### Graphic Design
 
-●●●○○ Figma ｜ ●●●○○ Adobe Photoshop ｜ ●●○○○ Adobe Illustrator
+ Figma <img :src="$withBase('/projects/figma.png')" alt=""> 
+｜ Adobe Photoshop <img :src="$withBase('/projects/Photoshop.png')" alt=""> 
+ ｜  Adobe Illustrator <img :src="$withBase('/projects/illustrator.png')" alt=""> 
 
 ## 幹部與社團經歷 :dizzy:
 
@@ -61,10 +62,10 @@ email: harry (at) hogwarts (dot) edu
 
 ## 工作經歷 💼
 
-- MLD 台鋁 2016/1~2016/7
-- 王品集團陶板屋
-- H&M 2019/4~2019/7
-- SSU 大專體總體育記者 2019/9~/2020/2 
+- MLD 台鋁 2016/1~2016/7 <img :src="$withBase('/projects/MLD.jpeg')" alt="" > 
+- 王品集團陶板屋 2018/5~2018/9 <img :src="$withBase('/projects/house.webp')" alt="">
+- H&M 2019/4~2019/7 <img :src="$withBase('/projects/H&M.svg')" alt=""> 
+- SSU 大專體總體育記者 2019/9~/2020/2  <img :src="$withBase('/projects/SSU.png')" alt=""> 
 
 
 ## 專案 💻
@@ -105,8 +106,8 @@ email: harry (at) hogwarts (dot) edu
   .theme-default-content:not(.custom) > h3
     padding-top 4rem
   img
-    max-width 50px
-    max-height 50px
+    max-width 40px
+    max-height 40px
     vertical-align:middle
 
 

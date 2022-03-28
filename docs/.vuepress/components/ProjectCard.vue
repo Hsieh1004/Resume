@@ -1,7 +1,7 @@
 <template>
   <div class="md-card" :class="{ 'show-border': !hideBorder}">
-    <div v-if="image" class="card-image">
-      <img :src="$withBase(image)" alt="">
+    <div v-if="image" class="card-image" >
+      <img :src="$withBase(image)" alt="" style="float: left">
     </div>
     <div class="card-content">
       <slot></slot>
@@ -44,6 +44,7 @@ export default {
       -webkit-margin-before 0em
       -webkit-margin-after 0.5em
       max-width: 650px;
+      padding: 10px;
     blockquote 
       font-size 1rem
     img
@@ -52,8 +53,8 @@ export default {
       margin: 15px
       float: right
       clear: both
-      object-fit: cover
 
+   
 
 .md-card.show-border
   border 1px solid #eee
