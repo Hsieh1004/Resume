@@ -4,9 +4,6 @@ pageClass: home-page
 
 name: Hsieh
 profile: /profile.jpg
-
----
-
 socials:
   - title: github
     icon: "/icons/github.svg"
