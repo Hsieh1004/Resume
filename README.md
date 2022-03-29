@@ -1,6 +1,6 @@
 ```bash
 # Clone the repo
-git clone https://github.com/mtobeiyf/vuepress-homepage.git
+git clone https://github.com/Hsieh1004/Resume.git
 cd vuepress-homepage
 
 # Install VuePress
