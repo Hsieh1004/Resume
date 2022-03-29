@@ -24,27 +24,28 @@ email: harry (at) hogwarts (dot) edu
 
 ## 關於我 🧏🏻‍♀️
 
-1999 年生，樂於接受不同的挑戰，享受生活樂趣帶來靈感，激發想法和行動 :dizzy:
+1999 年生，即將大學畢業的社會新鮮人，樂於接受不同的挑戰，享受生活樂趣帶來靈感，喜歡實踐所好奇及感興趣的事物 :dizzy:
 
 ## 技能 🔨
 ### Front-end
 
-HTML <img :src="$withBase('/projects/HTML5.png')" alt="">
-｜ Javascript (ES6)  <img :src="$withBase('/projects/javascript.svg')" alt="">
-｜ React <img :src="$withBase('/projects/React.png')" alt="">
-｜CSS <img :src="$withBase('/projects/CSS3.png')" alt="">
+ <img :src="$withBase('/projects/HTML5.png')" alt=""> HTML
+｜ <img :src="$withBase('/projects/CSS3.png')" alt=""> CSS
+｜ <img :src="$withBase('/projects/javascript.svg')" alt=""> Javascript (ES6) 
+｜ <img :src="$withBase('/projects/React.png')" alt=""> React
+
 ### Back-end
 
- MySQL  <img :src="$withBase('/projects/MySQL.png')" alt="">
- ｜  python <img :src="$withBase('/projects/Python.webp')" alt="">
- ｜ Node.js <img :src="$withBase('/projects/Node.png')" alt=""> 
- ｜  Heroku <img :src="$withBase('/projects/heroku.png')" alt=""> 
+   <img :src="$withBase('/projects/MySQL.png')" alt=""> MySQL
+ ｜ <img :src="$withBase('/projects/Python.webp')" alt=""> python
+ ｜ <img :src="$withBase('/projects/Node.png')" alt=""> Node.js
+ ｜ <img :src="$withBase('/projects/heroku.png')" alt=""> Heroku
 
 ### Graphic Design
 
- Figma <img :src="$withBase('/projects/figma.png')" alt=""> 
-｜ Adobe Photoshop <img :src="$withBase('/projects/Photoshop.png')" alt=""> 
- ｜  Adobe Illustrator <img :src="$withBase('/projects/illustrator.png')" alt=""> 
+  <img :src="$withBase('/projects/figma.png')" alt=""> Figma
+｜<img :src="$withBase('/projects/Photoshop.png')" alt=""> Adobe Photoshop
+｜<img :src="$withBase('/projects/illustrator.png')" alt=""> Adobe Illustrator
 
 ## 幹部與社團經歷 :dizzy:
 
@@ -112,6 +113,7 @@ HTML <img :src="$withBase('/projects/HTML5.png')" alt="">
     max-width 40px
     max-height 40px
     vertical-align:middle
+  
    
 
 

@@ -19,8 +19,6 @@
 		<div class="contact">
 			<div class="email" title="Contact me">{{ data.email }}</div>
 		</div>
-		<div class="resume">
-    </div>
 	</div>
 </template>
 

@@ -60,7 +60,6 @@ export default {
   display: flex
   flex-direction column
   align-items center
-  
 
   .avatar 
     position relative
@@ -102,9 +101,6 @@ export default {
           -webkit-margin-after 0em
           a
             font-weight normal
-      
-
-
 
     .interests
       padding 1em 1.5em

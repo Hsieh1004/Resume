@@ -54,7 +54,6 @@ export default {
       float: right
       clear: both
 
-   
 
 .md-card.show-border
   border 1px solid #eee
