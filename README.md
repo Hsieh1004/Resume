@@ -1,6 +1,8 @@
 ```bash
 # Clone the repo
-git clone https://github.com/Hsieh1004/Resume.git
+git clone https://github.com/mtobeiyf/vuepress-homepage.git
+cd vuepress-homepage
+
 # Install VuePress
 yarn global add vuepress
 # OR npm install -g vuepress

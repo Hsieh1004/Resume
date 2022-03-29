@@ -4,6 +4,7 @@ pageClass: home-page
 
 name: Hsieh
 profile: /profile.jpg
+
 socials:
   - title: github
     icon: "/icons/github.svg"
@@ -20,29 +21,29 @@ email: harry (at) hogwarts (dot) edu
 
 <ProfileSection :frontmatter="$page.frontmatter" />
 
-
 ## 關於我 🧏🏻‍♀️
 
 1999 年生，即將大學畢業的社會新鮮人，樂於接受不同的挑戰，享受生活樂趣帶來靈感，喜歡實踐所好奇及感興趣的事物 :dizzy:
 
 ## 技能 🔨
+
 ### Front-end
 
- <img :src="$withBase('/projects/HTML5.png')" alt=""> HTML
+<img :src="$withBase('/projects/HTML5.png')" alt=""> HTML
 ｜ <img :src="$withBase('/projects/CSS3.png')" alt=""> CSS
-｜ <img :src="$withBase('/projects/javascript.svg')" alt=""> Javascript (ES6) 
+｜ <img :src="$withBase('/projects/javascript.svg')" alt=""> Javascript (ES6)
 ｜ <img :src="$withBase('/projects/React.png')" alt=""> React
 
 ### Back-end
 
-   <img :src="$withBase('/projects/MySQL.png')" alt=""> MySQL
- ｜ <img :src="$withBase('/projects/Python.webp')" alt=""> python
- ｜ <img :src="$withBase('/projects/Node.png')" alt=""> Node.js
- ｜ <img :src="$withBase('/projects/heroku.png')" alt=""> Heroku
+<img :src="$withBase('/projects/MySQL.png')" alt=""> MySQL
+｜ <img :src="$withBase('/projects/Python.webp')" alt=""> python
+｜ <img :src="$withBase('/projects/Node.png')" alt=""> Node.js
+｜ <img :src="$withBase('/projects/heroku.png')" alt=""> Heroku
 
 ### Graphic Design
 
-  <img :src="$withBase('/projects/figma.png')" alt=""> Figma
+<img :src="$withBase('/projects/figma.png')" alt=""> Figma
 ｜<img :src="$withBase('/projects/Photoshop.png')" alt=""> Adobe Photoshop
 ｜<img :src="$withBase('/projects/illustrator.png')" alt=""> Adobe Illustrator
 
@@ -64,10 +65,11 @@ email: harry (at) hogwarts (dot) edu
 
 ## 工作經歷 💼
 
-- MLD 台鋁 2016/1~2016/7 <img :src="$withBase('/projects/MLD.jpeg')" alt="" > 
+- MLD 台鋁 2016/1~2016/7 <img :src="$withBase('/projects/MLD.jpeg')" alt="" >
 - 王品集團陶板屋 2018/5~2018/9 <img :src="$withBase('/projects/house.webp')" alt="">
-- H&M 2019/4~2019/7 <img :src="$withBase('/projects/H&M.svg')" alt=""> 
-- SSU 大專體總體育記者 2019/9~/2020/2  <img :src="$withBase('/projects/SSU.png')" alt=""> 
+- H&M 2019/4~2019/7 <img :src="$withBase('/projects/H&M.svg')" alt="">
+- SSU 大專體總體育記者 2019/9~/2020/2 <img :src="$withBase('/projects/SSU.png')" alt="">
+- 創科資訊 Trunk Studio 2022/2~2022/6 <img :src="$withBase('/projects/trunk.png')" alt="">
 
 
 
@@ -86,8 +88,6 @@ email: harry (at) hogwarts (dot) edu
 <ProjectCard hideBorder=true>
 
 </ProjectCard> -->
-
-
 
 <!-- Custom style for this page -->
 
