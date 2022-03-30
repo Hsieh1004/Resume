@@ -14,5 +14,5 @@ git add -A
 git commit -m 'deploy'
 
 # 如果釋出到 https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/Hsieh1004/Vue-Resume.git master:gh-devlop
+git push -f https://hsieh1004.github.io/Resume/
 cd -

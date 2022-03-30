@@ -37,7 +37,8 @@ email: harry (at) hogwarts (dot) edu
 ### Back-end
 
 <img :src="$withBase('/projects/MySQL.png')" alt=""> MySQL
-｜ <img :src="$withBase('/projects/Python.webp')" alt=""> python
+｜ <img :src="$withBase('/projects/Python.webp')" alt=""> Python
+｜ <img :src="$withBase('/projects/Flask.png')" alt=""> Flask
 ｜ <img :src="$withBase('/projects/Node.png')" alt=""> Node.js
 ｜ <img :src="$withBase('/projects/heroku.png')" alt=""> Heroku
 
@@ -50,12 +51,18 @@ email: harry (at) hogwarts (dot) edu
 ## 幹部與社團經歷 :dizzy:
 
 - 雲林科技大學 公關長
+  - 協助班上進行聯誼活動 
 - 雲林科技大學 班級代表
+  - 處理
 - 學生自治會幹部 資訊長
+  - 管理及修改學校網頁 
+  - 管理及維護學校影音設備
 - 學生自治會粉絲專頁小編
+  - 經營學生會Facebook粉絲專頁
 - 106 年大專院校學生會成果競賽暨觀摩活動
 - 107 年大專院校學生會成果競賽暨觀摩活動
 - 107 年全國大專院校運動會攝影組
+  - 紀錄選手比賽花絮
 
 ## 語言能力 💬
 
@@ -64,14 +71,21 @@ email: harry (at) hogwarts (dot) edu
 
 
 ## 工作經歷 💼
+<work>
 
-- MLD 台鋁 2016/1~2016/7 <img :src="$withBase('/projects/MLD.jpeg')" alt="" >
-- 王品集團陶板屋 2018/5~2018/9 <img :src="$withBase('/projects/house.webp')" alt="">
-- H&M 2019/4~2019/7 <img :src="$withBase('/projects/H&M.svg')" alt="">
-- SSU 大專體總體育記者 2019/9~/2020/2 <img :src="$withBase('/projects/SSU.png')" alt="">
-- 創科資訊 Trunk Studio 2022/2~2022/6 <img :src="$withBase('/projects/trunk.png')" alt="">
+<!-- - MLD 台鋁 2016/1~2016/7 <img :src="$withBase('/projects/MLD.jpeg')" alt="" >
+- 王品集團陶板屋 2018/5~2018/9 <img :src="$withBase('/projects/house.webp')" alt="" >
+  -  -->
+- H&M 2019/4~2019/7 <img :src="$withBase('/projects/H&M.svg')" alt="" >
+  - 進行賣場的整理以及維護
+  - 協助顧客
+  
+- SSU 大專體總體育記者 2019/9~/2020/2 <img :src="$withBase('/projects/SSU.png')" alt=""></div>
+  - 撰寫體育賽事新聞
+  - 協助體協進行體育賽事
+- 創科資訊 Trunk Studio 實習生 2022/2~2022/6 <img :src="$withBase('/projects/trunk.png')" alt="trunk">
 
-
+</work>
 
 ## 專案 💻
 
@@ -94,8 +108,9 @@ email: harry (at) hogwarts (dot) edu
 <style lang="stylus">
 
 .theme-container.home-page .page
-  font-size 18px
+  font-size 20px
   font-family "lucida grande", "lucida sans unicode", lucida, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height 70px
   p
     margin 0 0 0.5rem
   p, ul, ol
@@ -113,9 +128,8 @@ email: harry (at) hogwarts (dot) edu
     max-height 40px
     vertical-align:middle
   
-   
-
-
+  
+  
 
   /* Override */
   .md-card
@@ -127,6 +141,7 @@ email: harry (at) hogwarts (dot) edu
         max-height 120px
     .card-content p
       -webkit-margin-after 0.2em
+      
     
 
 @media (max-width: 419px)

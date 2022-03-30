@@ -2,7 +2,7 @@ module.exports = {
   title: "Hsieh", 
   description: "The description of the site.",
   head: [["link", { rel: "icon", href: `/logo.png` }]],
-  base: '/Vue-Resume/',
+  base: '/Resume/',
   dest: "./dist",
 
 
@@ -25,7 +25,21 @@ module.exports = {
     extendMarkdown: md => {
       md.use(require("markdown-it-katex"));
     }
-  }
+  },
+
+  plugins:[
+    [
+      '@vuepress/register-component',
+      {
+        component:[
+          {
+            name:'V-card',
+            path:'../../docs/.vuepress/components/Work.vue'
+          }
+        ]
+      }
+    ]
+  ]
 };
 
 function genSidebarConfig (title) {
