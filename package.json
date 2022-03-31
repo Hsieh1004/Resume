@@ -9,8 +9,7 @@
     "dev": "vuepress dev . --open --host \"localhost\"",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "build": "vuepress build docs",
-    "start": "node index.js"
+    "build": "vuepress build docs"
   },
   "license": "MIT",
   "devDependencies": {
