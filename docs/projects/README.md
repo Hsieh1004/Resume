@@ -24,7 +24,7 @@ pageClass: projects-page
 
 - 對象：Monospaec 會員
 - 工具：React、MySQL、Laravel
-- 提供會員
+- 提供共享空間會員鎖櫃抽籤之系統，透過簡單的介面選擇自己所想要的鎖櫃，進行登記以及抽籤。
 
 </ProjectCard>
 
