@@ -51,17 +51,20 @@ email: harry (at) hogwarts (dot) edu
 ## 幹部與社團經歷 :dizzy:
 
 - 雲林科技大學 公關長
-  - 協助班上進行聯誼活動 
+  - 協助班上進行聯誼活動
 - 雲林科技大學 班級代表
-  - 處理
+  - 處理班上行政事務
 - 學生自治會幹部 資訊長
-  - 管理及修改學校網頁 
+  - 管理及修改學校網頁
   - 管理及維護學校影音設備
 - 學生自治會粉絲專頁小編
-  - 經營學生會Facebook粉絲專頁
-- 106 年大專院校學生會成果競賽暨觀摩活動
-- 107 年大專院校學生會成果競賽暨觀摩活動
-- 107 年全國大專院校運動會攝影組
+  - 製作影音素材
+  - 規劃貼文主題
+  - 粉絲專頁貼文撰寫
+- 全國大專院校學生會成果競賽暨觀摩活動
+  - 檢視組織發展狀況
+  - 落實檔案保存與傳承
+- 全國大專院校運動會攝影組
   - 紀錄選手比賽花絮
 
 ## 語言能力 💬
@@ -69,21 +72,21 @@ email: harry (at) hogwarts (dot) edu
 - Chinese (Native)
 - English(Basic, TOEIC 600)
 
-
 ## 工作經歷 💼
+
 <work>
 
 <!-- - MLD 台鋁 2016/1~2016/7 <img :src="$withBase('/projects/MLD.jpeg')" alt="" >
 - 王品集團陶板屋 2018/5~2018/9 <img :src="$withBase('/projects/house.webp')" alt="" >
   -  -->
-- H&M 2019/4~2019/7 <img :src="$withBase('/projects/H&M.svg')" alt="" >
-  - 進行賣場的整理以及維護
-  - 協助顧客
-  
-- SSU 大專體總體育記者 2019/9~/2020/2 <img :src="$withBase('/projects/SSU.png')" alt=""></div>
+
+- H&M <div class="position">門市銷售人員 Apr 2019 - July 2019</div> <img :src="$withBase('/projects/H&M.svg')" alt="" >
+  - 賣場的整理以及維護
+  - 卸貨協助及售貨前的整理
+- SSU <div class="position">大專媒體志工 Sep 2019 - Feb 2020 </div>  <img :src="$withBase('/projects/SSU.png')" alt=""></div>
   - 撰寫體育賽事新聞
   - 協助體協進行體育賽事
-- 創科資訊 Trunk Studio 實習生 2022/2~2022/6 <img :src="$withBase('/projects/trunk.png')" alt="trunk">
+- 創科資訊 Trunk Studio <div class="position">實習生 Feb 2022 - Present</div>  <img :src="$withBase('/projects/trunk.png')" alt="trunk">
 
 </work>
 
@@ -128,7 +131,10 @@ email: harry (at) hogwarts (dot) edu
     max-height 40px
     vertical-align:middle
   
-  
+  .position
+    font-size 17px
+    color #8E8E8E
+
   
 
   /* Override */
