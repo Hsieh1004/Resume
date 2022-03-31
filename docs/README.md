@@ -43,7 +43,7 @@ socials:
 
 <img :src="$withBase('/projects/figma.png')" alt=""> Figma
 ｜<img :src="$withBase('/projects/Photoshop.png')" alt=""> Adobe Photoshop
-｜<img :src="$withBase('./../../dist/projects/Illustrator.jpg')" alt=""> Adobe Illustrator
+｜<img :src="$withBase('/projects/ai.png')" alt=""> Adobe Illustrator
 
 ## 幹部與社團經歷 :dizzy:
 
