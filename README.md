@@ -7,4 +7,3 @@ yarn install
 
 # Run
 yarn dev:docs
-```
