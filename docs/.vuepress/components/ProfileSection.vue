@@ -10,11 +10,6 @@
 			<div class="bio">
 				<p>{{ data.bio }}</p>
 			</div>
-			<div class="socials">
-				<a :href="item.link" target="_blank">
-					<img :src="item.icon" :alt="item.title" :title="item.title" />
-				</a>
-			</div>
 		</div>
 		<div class="contact">
 			<div class="email" title="Contact me">{{ data.email }}</div>

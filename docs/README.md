@@ -2,21 +2,18 @@
 pageClass: home-page
 # some data for the components
 
-name: Hsieh
+# name: Hsieh
 profile: /profile.jpg
 
 socials:
   - title: github
     icon: "/icons/github.svg"
     link: https://github.com/mtobeiyf
-  - title: linkedin
-    icon: "/icons/linkedin-mono.svg"
-    link: https://www.linkedin.com
   - title: instagram
     icon: "/icons/instagram-mono.svg"
     link: https://www.instagram.com
 
-email: harry (at) hogwarts (dot) edu
+# email: harry (at) hogwarts (dot) edu
 ---
 
 <ProfileSection :frontmatter="$page.frontmatter" />
