@@ -5,6 +5,7 @@
   "author": "Fing <mtobeiyf@163.com>",
   "repository": "https://github.com/mtobeiyf/vuepress-homepage.git",
   "scripts": {
+    "start": "vuepress dev docs",
     "clean": "rimraf dist/*",
     "dev": "vuepress dev . --open --host \"localhost\"",
     "docs:dev": "vuepress dev docs",
