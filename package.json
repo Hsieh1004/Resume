@@ -10,7 +10,7 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "build": "vuepress build docs",
-    "gh": "bash scripts/deploy-gh.sh"
+    "start": "node index.js"
   },
   "license": "MIT",
   "devDependencies": {
