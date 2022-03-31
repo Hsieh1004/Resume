@@ -1,10 +1,10 @@
 
 # Install VuePress
-yarn global add vuepress or npm install -g vuepress
+yarn global add vuepress
 
 # Install dependencies
-yarn or npm install
+yarn install
 
 # Run
-$ yarn dev or npm run dev
+$ yarn dev:docs
 ```
