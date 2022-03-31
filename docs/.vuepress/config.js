@@ -2,7 +2,7 @@ module.exports = {
   title: "Hsieh", 
   description: "The description of the site.",
   head: [["link", { rel: "icon", href: `/logo.png` }]],
-  base: './',
+  
   dest: "./dist",
 
 
