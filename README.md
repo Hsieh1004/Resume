@@ -6,5 +6,5 @@ yarn global add vuepress
 yarn install
 
 # Run
-$ yarn dev:docs
+yarn dev:docs
 ```
