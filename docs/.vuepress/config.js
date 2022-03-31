@@ -13,9 +13,9 @@ module.exports = {
       { text: "About", link: "/about/" },
       { text: "Projects", link: "/projects/" },
     ],
-    sidebar: {
-      '/guide/': genSidebarConfig('Guide')
-    },
+    // sidebar: {
+    //   '/guide/': genSidebarConfig('Guide')
+    // },
     lastUpdated: 'Last Updated'
   },
 
